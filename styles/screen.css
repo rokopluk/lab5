@@ -45,9 +45,33 @@ main {
 .details ul li {
     list-style-type: none;
     margin: 10px 0;
-    padding: 0 0 0 35px;
+    padding: 0 0 0 40px;
 }
 
-.details {
-    background: url('') no-repeat center left;
+.details ul li.qr {
+    background: url('/images/qrcode-solid.svg') no-repeat center left;
+
+}
+
+.details ul li.wifi {
+    background: url('/images/wifi-solid.svg') no-repeat center left;
+
+}
+
+.details ul li.media {
+    background: url('/images/photo-film-solid.svg') no-repeat center left;
+
+}
+
+.details ul li.cloud {
+    background: url('/images/cloud-arrow-up-solid.svg') no-repeat center left;
+
+}
+
+.cta {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
 }
